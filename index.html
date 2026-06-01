@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumino — Illuminate Your Workflow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ───────────────────────────────────── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#" class="logo">Lumin<span>o</span></a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Docs</a></li>
+        <li><a href="#" class="nav-cta">Get Started</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#features" onclick="closeMobile()">Features</a>
+    <a href="#"         onclick="closeMobile()">Pricing</a>
+    <a href="#"         onclick="closeMobile()">Docs</a>
+    <a href="#"         onclick="closeMobile()" style="color:var(--accent)">Get Started →</a>
+  </div>
+
+  <!-- ── HERO ──────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Now in Public Beta
+      </div>
+      <h1>Illuminate your<br /><em>entire</em> workflow</h1>
+      <p class="hero-sub">
+        Lumino connects your team's tools, tasks, and timelines into a single intelligent workspace — so nothing falls through the cracks.
+      </p>
+      <div class="cta-group">
+        <button class="btn-primary">Explore Features</button>
+        <button class="btn-ghost">Watch Demo</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURES ──────────────────────────────── -->
+  <section id="features">
+    <div class="section-label">Why Lumino</div>
+    <h2 class="section-title">Everything your team<br />needs, unified</h2>
+    <p class="section-sub">
+      Three core pillars that keep distributed teams in sync — without the chaos.
+    </p>
+
+    <div class="cards-grid">
+
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Real-Time Sync</h3>
+        <p>
+          Every update, comment, and status change propagates instantly across your entire team. No more stale dashboards or missed notifications.
+        </p>
+        <span class="card-link">Learn more →</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🧩</div>
+        <h3>Smart Integrations</h3>
+        <p>
+          Connect Lumino to 150+ tools you already use — Slack, GitHub, Jira, Figma — and let it surface the signals that matter most.
+        </p>
+        <span class="card-link">See integrations →</span>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Clarity Analytics</h3>
+        <p>
+          Beautiful, opinionated reports that tell you where time goes, which projects are off-track, and what to fix — before it's too late.
+        </p>
+        <span class="card-link">View reports →</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────── -->
+  <hr class="divider" />
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Lumin<span>o</span></div>
+      <ul class="footer-links">
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy">© 2026 Lumino, Inc. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
