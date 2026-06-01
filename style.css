@@ -1,12 +1,12 @@
 /* ── CSS Variables ──────────────────────────── */
 :root {
-  --bg:       #0b0f14a2;
+  --bg:       #aab6c6a2;
   --surface:  #131820;
   --border:   #1e2730;
   --accent:   #e8c86d;
   --accent2:  #5ae4c3;
   --text:     #e8ecf0;
-  --muted:    #8a96a3;
+  --muted:    #6e767f;
   --nav-h:    68px;
   --radius:   16px;
   --max-w:    1140px;
